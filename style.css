@@ -1,0 +1,43 @@
+body , html {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	background: url(Background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Katibeh', cursive;
+}
+
+h1 ,p	{
+	background-color: rgba(10, 255, 255,0.2);
+	border: 2px lightblue;
+	width: 100%;
+	text-align: center;
+	color: rgb(100,50,200);
+}
+
+img {
+	margin: 20px;
+}
+
+p {
+	font-size: 2rem;
+}
+
+hr {
+	background-color: blue;
+	border-width: 2px;
+	max-width: 150px;
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+.btn-xl {
+	padding: 1rem 2rem;
+	font-size: 25px;
+}
